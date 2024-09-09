@@ -1,0 +1,22 @@
+js synchronous => default
+
+//1
+//2
+
+console.log('first') // 2sec
+console.log('second') // 1sec
+
+
+js asynchronous  => callback
+
+console.log('first') // 2sec
+console.log('second') // 1sec
+
+<script> </script>
+external js file 
+
+int a = 10
+char b = 'string'
+
+x = 10 // number
+x = 'string' // string
