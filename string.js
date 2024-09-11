@@ -23,3 +23,11 @@ var age = 28;
 // template literals:
 
 `my 'name' is ${name} and my "age" is ${age}` => es6
+
+// babel js lib => es6 => convert es5
+
+var x = 10;
+var x = new Number(10)
+
+var o = {};
+var o = new Object();

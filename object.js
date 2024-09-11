@@ -1,9 +1,15 @@
 // methods == function
+
+// own prop, methods
+// {key: value }
+
+// var obj = {};
+
 var details = { // 2000
-    name: 'divyansh',
+    name: 'divyansh', // string, number, boolean, null, array, object
     age: 28,
     city: 'noida',
-    printNameAge: function(){
+    printNameAge: function(){ // method
         console.log('first');
     }
 }
